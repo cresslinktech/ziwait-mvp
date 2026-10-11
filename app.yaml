@@ -4,6 +4,6 @@ name: ziwait-mvp
 package: php/php
 volumes:
   - name: storage
-    mount: /app/public/storage
+    mount: /app/storage/app/public
   - name: private
     mount: /app/storage/app/private
