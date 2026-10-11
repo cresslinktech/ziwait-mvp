@@ -1,0 +1,9 @@
+kind: wasmer.io/App.v0
+owner: cresslinktech
+name: ziwait-mvp
+package: php/php
+volumes:
+  - name: storage
+    mount: /app/public/storage
+  - name: private
+    mount: /app/storage/app/private
